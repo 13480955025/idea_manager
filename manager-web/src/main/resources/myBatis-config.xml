@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration SYSTEM "E:\dtd\mybatis-3-config.dtd" >
+<configuration>
+	<!-- 实体类别名 -->
+	<typeAliases>
+		<package name="com.jbit.pojo"/>
+	</typeAliases>
+
+</configuration>

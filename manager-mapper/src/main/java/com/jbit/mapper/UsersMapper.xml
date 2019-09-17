@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "E:\dtd\mybatis-3-mapper.dtd" >
+<mapper namespace="com.jbit.mapper.UsersMapper">
+    <!--新增-->
+    <insert id="getInsert" parameterType="Users">
+        INSERT INTO `users` (`username`,`userage`)
+        VALUES (#{username}, #{userage})
+    </insert>
+    <!--查询全部-->
+    <select id="getselect" resultType="Users">
+        SELECT * FROM users
+    </select>
+
+</mapper>
